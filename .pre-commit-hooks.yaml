@@ -1,0 +1,9 @@
+-   id: mkinit
+    name: Auto-generates __init__ files 
+    description: This hook auto-generates __init__ files  using `mkinit`
+    entry: mkinit
+    language: python
+    always_run: true 
+    pass_filenames: false 
+    require_serial: true 
+    
